@@ -17,7 +17,8 @@ body header .nav-bg {
   z-index: 2000; }
   .sidemenu a {
     padding: 15px;
-    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.5); }
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.5);
+    text-align: center; }
 
 .content {
   transition: all 0.2s none; }
@@ -38,18 +39,14 @@ footer {
     width: 100%;
     height: auto; }
 
-  .shiftrow {
-    transform: translateX(50px); }
+  .button-group {
+    transform: translateX(80px); }
 
   .logotext {
-    transform: translate(40px, -10px);
+    transform: translate(40px, 0px);
     color: #fff; } }
-@media only screen and (max-width: 300px) {
-  .shiftrow {
-    transform: translateX(50px);
-    display: none; } }
-@media only screen and (max-width: 1300px) {
-  .shiftrow {
+@media only screen and (max-width: 155px) {
+  .button-group {
     transform: translateX(50px);
     display: none; }
 
