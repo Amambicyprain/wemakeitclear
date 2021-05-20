@@ -10,14 +10,18 @@ body header .nav-bg {
 .active {
   color: green !important; }
 
+.w-50 {
+  width: 30% !important; }
+
 .sidemenu {
   left: 0;
   margin-top: 9.375rem/1px/16rem;
   transition: none;
   z-index: 2000; }
   .sidemenu a {
-    padding: 15px;
-    text-align: center; }
+    padding: 15px; }
+  .sidemenu .sidebar a {
+    padding: 15px; }
 
 .content {
   transition: all 0.2s none; }
@@ -33,6 +37,8 @@ a:hover {
 footer {
   background-color: #66BB6A;
   color: #fff; }
+  footer a {
+    padding: 15px; }
 
 @media only screen and (max-width: 816px) {
   body img {

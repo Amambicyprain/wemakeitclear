@@ -46,9 +46,9 @@
                 </div>
              </div>
                 <div class="col-2 ms-auto text-center " style="color: aliceblue;" >
-                  <a href="signin.html" style="color:aliceblue ;">
+                  <span href="" style="color:aliceblue ;" data-toggle="modal" data-target="#modalLoginAvatarDemo">
                     <i class=" user fas fa-user-circle fa-2x"></i>
-                  </a>
+                  </span>
                 </div>
            </nav>
            <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -98,52 +98,61 @@
       </div>
     </header>
     <div class="wrapper d-flex ">
-      <div class="sidemenu  no-wrap card p-3 shadow-lg  mt-3  collapse width show-md"id="sidebar">
+      <div class="sidemenu  no-wrap card p-3 shadow-lg w-50 mt-3  collapse width show-md"id="sidebar">
         <div class="sidebar p-1  " >
           <ul class="navbar-nav no-wrap">
             <li class="nav-item">
               <a href="" class="nav-link" hreff="#">
-                <i class="material-icons icon">
-              
-                </i><span class="text">
+                 <i class="fas fa-angle-double-right ml-5"></i>
+                <span class="text">
                    WEB DEVELOPEMENT
                 </span>
+               
               </a>
             </li>
             <li class="nav-item">
               <a href="" class="nav-link" hreff="#">
-                <i class="material-icons icon">
                 
-                </i><span class="text">OPERATING SYSTEMS</span>
+                 <i class="fas fa-angle-double-right ml-5"></i>
+                <span class="text">OPERATING SYSTEMS</span>
+                
               </a>
             </li>
             <li class="nav-item">
               <a href="" class="nav-link" hreff="#">
-                <i class="material-icons icon">
-                  
-                </i><span class="text"> ELECTRICITY</span>
+                
+                 <i class="fas fa-angle-double-right ml-5"></i>
+                <span class="text"> ELECTRICITY</span>
+                
               </a>
             </li>
             <li class="nav-item">
               <a href="" class="nav-link" hreff="#">
-                <i class="material-icons icon">
-                  
-                </i><span class="text"> PROGRAMMING/DATABASE</span>
+            
+                <i class="fas fa-angle-double-right ml-5"></i>
+                <span class="text"> PROGRAMMING/DATABASE</span>
+                
               </a>
             </li>
             <li class="nav-item">
               <a href="" class="nav-link" hreff="#">
-                <i class="material-icons icon"></i><span class="text">EMPOWERMENT</span>
+                 <i class="fas fa-angle-double-right ml-5"></i>
+                  <span class="text">EMPOWERMENT</span>
+                
               </a>
               </li>
               <li class="nav-item">
                 <a href="" class="nav-link" hreff="#">
-                  <i class="material-icons icon"></i><span class="text">EDUCATION</span>
+                  <i class="fas fa-angle-double-right ml-5"></i>
+                  <span class="text">EDUCATION</span>
+                  
                 </a>
                 </li>
                 <li class="nav-item">
                   <a href="" class="nav-link" hreff="#">
-                    <i class="material-icons icon"></i><span class="text">LOGICAL REASONING</span>
+                     <i class="fas fa-angle-double-right ml-5"></i>
+                    <span class="text">LOGICAL REASONING</span>
+                   
                   </a>
                   </li>
           </ul>
@@ -287,6 +296,43 @@
              </div>
            </div>
           </div>
+          <div class="modal fade" id="modalLoginAvatarDemo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog cascading-modal modal-avatar modal-sm" role="document">
+                    <!--Content-->
+                    <div class="modal-content">
+  
+                      <!--Header-->
+                      <div class="modal-header d-flex justify-content-center">
+                        <img src="img/logo.png" class="rounded-circle img-responsive "
+                          alt="Avatar photo" style="width: 200px; height: 200px;">
+                      </div>
+                      <!--Body-->
+                      <div class="modal-body text-center mb-1">
+  
+                        <div class="form-outline md-outline mb-4">
+                          <input type="email" id="form5Example2" class=" form-control " />
+                          <label class="form-label" for="emailadress">Email address</label>
+                        </div>
+                        <br>
+  
+                        <div class="form-outline ml-0 mr-0">
+                          
+                          <input type="password" type="text" id="form1" class="form-control ml-0">
+                          <label class="form-label" for="emailadress">password</label>
+                        </div>
+  
+                        <div class="text-center mt-4">
+                          <button class="btn btn-cyan">Login
+                            <i class="fa fa-sign-in ml-1"></i>
+                          </button>
+                        </div>
+                      </div>
+  
+                    </div>
+                    <!--/.Content-->
+                  </div>
+                </div>
         </main>
       </div>
     </div>
